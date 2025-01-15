@@ -32,10 +32,14 @@ class _MyCatCartState extends State<MyCatCart> {
                 ),
               ],
             ),
-            Image.asset(
-              "images/hcrbg.png",
-              height: 100,
+            Center(
+              child: Image.asset(
+                "images/hcrbg.png",
+                height: 100,
+                width: 150,
+              ),
             ),
+            Text("bag"),
           ],
         ),
       ),
