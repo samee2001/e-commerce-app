@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newproject/components/my_cat_cart.dart';
+import 'package:newproject/components/my_header_row.dart';
 import 'package:newproject/components/my_page_view.dart';
 import 'package:newproject/components/my_text_field.dart';
 
@@ -25,27 +26,7 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(
                 height: 10,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  SizedBox(
-                    width: 100,
-                    height: 100,
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(50),
-                      child: Image.asset("images/sameera.png"),
-                    ),
-                  ),
-                  IconButton(
-                    onPressed: () {},
-                    icon: const Icon(
-                      Icons.shopping_bag_outlined,
-                      size: 40,
-                      color: Colors.white,
-                    ),
-                  ),
-                ],
-              ),
+              MyHeaderRow(),
               const SizedBox(
                 height: 10,
               ),

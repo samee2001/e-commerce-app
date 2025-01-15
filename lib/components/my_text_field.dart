@@ -7,7 +7,7 @@ class MyTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       decoration: InputDecoration(
-        fillColor: Colors.white,
+        fillColor: const Color.fromARGB(255, 234, 228, 228),
         filled: true,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(50),
